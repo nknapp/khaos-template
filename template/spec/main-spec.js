@@ -5,8 +5,15 @@
  * Released under the MIT license.
  */
 
+/* global describe */
+// /* global it */
+// /* global xdescribe */
+// /* global xit */
+
 'use strict'
 
-module.exports = function {{camelcase basename}} () {
+var {{camelcase basename}} = require('../')
+
+describe('{{basename}}:', function () {
   // body
-}
+})
