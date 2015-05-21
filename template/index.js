@@ -1,7 +1,7 @@
 /*!
- * {{default name basename}} <https://github.com/{{default owner 'tunnckoCore'}}/{{default name basename}}>
+ * {{default name basename}} <https://github.com/{{default owner 'nknapp'}}/{{default name basename}}>
  *
- * Copyright (c) {{date date 'YYYY'}} Charlike Mike Reagent, contributors.
+ * Copyright (c) {{date date 'YYYY'}} Nils Knappmeier.
  * Released under the MIT license.
  */
 
