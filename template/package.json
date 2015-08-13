@@ -18,13 +18,14 @@
   "license": "MIT",
   "scripts": {
     "pretest": "npm list --depth=0 -g standard || npm -g install standard",
-    "test": "jasmine && standard",
+    "test": "mocha && standard",
     "preformat": "npm list --depth=0 -g standard || npm -g install standard",
     "format": "standard --format"
   },
   "dependencies": {},
   "devDependencies": {
-    "jasmine": "^2.3.1"
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
   },
   "standard": {
     "ignore": [
