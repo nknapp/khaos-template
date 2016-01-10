@@ -7,6 +7,11 @@
 
 'use strict'
 
-module.exports = function {{camelcase basename}} () {
+module.exports = {{camelcase basename}}
+/**
+ * Describe your module here
+ * @public
+ */
+function {{camelcase basename}} () {
   // body
 }
