@@ -32,5 +32,10 @@
       "spec/fixtures/**"
     ]
   },
-  "keywords": []
+  "files": [
+    "index.js",
+    "lib",
+    "bin"
+  ],
+  "keywords": [ {{keywords}} ]
 }
