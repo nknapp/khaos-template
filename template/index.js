@@ -1,5 +1,5 @@
 /*!
- * {{basename}} <https://github.com/nknapp/{{basename}}>
+ * {{basename}} <https://github.com/{{organization}}/{{basename}}>
  *
  * Copyright (c) {{date date 'YYYY'}} Nils Knappmeier.
  * Released under the MIT license.

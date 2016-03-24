@@ -1,6 +1,3 @@
-# Change Log
+# Release notes for `{{basename}}`
 
-This project adheres to [Semantic Versioning](http://semver.org/).
-
-## Upcoming
-### Initial version
+<a name="current-release"></a>
