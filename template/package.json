@@ -49,5 +49,5 @@
       "pre-commit": "standard"
     }
   },
-  "keywords": [ {{keywords}} ]
+  "keywords": [ {{{keywords}}} ]
 }
