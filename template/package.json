@@ -18,19 +18,22 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "preformat": "standard --version || npm -g install standard",
-    "format": "standard --format",
-    "pretest": "standard --version || npm -g install standard",
-    "test": "mocha --recursive && standard",
+    "lint": "eslint --fix .",
+    "test": "mocha --recursive && standard --fix",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly",
     "thought": "thought run -a",
-    "prethoughtcheck": "thought --version || npm -g install thought",
-    "thoughtcheck": "thought check-engines",
     "version": "thoughtful changelog -o -a && npm run thought",
-    "preversion": "npm run thoughtcheck"
+    "pre-commit": "eslint --fix . && thoughtful precommit"
   },
   "dependencies": {},
   "devDependencies": {
-    "ghooks": "^1.0.3",
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "husky": "^0.13.2",
     "mocha": "^2.3.3",
     "thoughtful-release": "^0.3.0",
     "trace-and-clarify-if-possible": "^1.0.0"
@@ -50,5 +53,5 @@
       "pre-commit": "standard"
     }
   },
-  "keywords": [ {{{keywords}}} ]
+  "keywords": []
 }
