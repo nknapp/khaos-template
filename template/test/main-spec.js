@@ -5,15 +5,15 @@
  * Released under the MIT license.
  */
 
-/* global describe */
-// /* global it */
-// /* global xdescribe */
-// /* global xit */
+/* eslint-env mocha */
 
-'use strict'
-
-var {{camelcase basename}} = require('../')
+const {{camelcase basename}} = require('../')
+const chai = require('chai')
+chai.use(require('dirty-chai'))
+const expect = chai.expect
 
 describe('{{basename}}:', function () {
-  // body
+  it("should be executed", function () {
+    expect({{camelcase basename}}()).to.equal('{{camelcase basename}}')
+  })
 })

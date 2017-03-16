@@ -13,5 +13,5 @@ module.exports = {{camelcase basename}}
  * @public
  */
 function {{camelcase basename}} () {
-  // body
+  return "my name is {{camelcase basename}}"
 }
